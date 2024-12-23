@@ -1,0 +1,86 @@
+version: 3
+domain: FIRST Robotics Competition 2024 Game Manual
+created_by: FRC
+seed_examples:
+  - context: |
+      The FIRST Robotics Competition combines the excitement of sports with the rigors of science and technology. Teams design, build, and program industrial-size robots to compete for awards and inspire STEM learning. This year's game, CRESCENDO, features alliances scoring notes in speakers and amps, harmonizing robots onstage, and achieving Coopertition bonuses.
+    questions_and_answers:
+      - question: |
+          What is the main purpose of the FIRST Robotics Competition?
+        answer: |
+          To combine the excitement of sports with science and technology, inspiring STEM learning through designing, building, and programming robots.
+      - question: |
+          What is the 2024 FRC game called?
+        answer: |
+          The 2024 FRC game is called CRESCENDO.
+      - question: |
+          How do alliances earn Coopertition bonuses in CRESCENDO?
+        answer: |
+          Alliances earn Coopertition bonuses by repurposing a note and pressing the Coopertition button during the first 45 seconds of the teleoperated phase.
+  - context: |
+      Gracious Professionalism is a core ethos of FIRST, emphasizing high-quality work, respect for others, and integrity. Coopertition involves helping and respecting opponents while competing. These principles encourage learning, collaboration, and mutual respect.
+    questions_and_answers:
+      - question: |
+          What is Gracious Professionalism in the context of FIRST?
+        answer: |
+          Gracious Professionalism emphasizes high-quality work, respect for others, and integrity in actions and interactions.
+      - question: |
+          How does Coopertition differ from traditional competition?
+        answer: |
+          Coopertition involves helping and respecting opponents while competing, fostering collaboration and mutual respect.
+      - question: |
+          Why are Gracious Professionalism and Coopertition important in FIRST?
+        answer: |
+          They promote learning, collaboration, and integrity, creating a positive and respectful competitive environment.
+  - context: |
+      The CRESCENDO playing field includes various elements: AMPs, speakers, sources, stages, and alliance walls. Robots score points by delivering notes to AMPs and speakers, with additional points for harmonizing onstage and being spotlighted by human players.
+    questions_and_answers:
+      - question: |
+          What elements are included on the CRESCENDO playing field?
+        answer: |
+          The CRESCENDO playing field includes AMPs, speakers, sources, stages, and alliance walls.
+      - question: |
+          How do robots earn points with AMPs and speakers?
+        answer: |
+          Robots score points by delivering notes to AMPs and speakers, with amplified notes earning higher points.
+      - question: |
+          What is harmonizing in CRESCENDO?
+        answer: |
+          Harmonizing occurs when multiple robots share a chain onstage, earning additional points for the alliance.
+  - context: |
+      DRIVE TEAMS consist of up to five people per team, including drivers, a coach, and a technician. Roles include operating the robot, advising, and handling pre- and post-match technical tasks. DRIVE TEAMS must follow setup and conduct rules.
+    questions_and_answers:
+      - question: |
+          What roles are included in a DRIVE TEAM?
+        answer: |
+          A DRIVE TEAM includes drivers, a coach, and a technician.
+      - question: |
+          What are the responsibilities of the technician in a DRIVE TEAM?
+        answer: |
+          The technician handles pre- and post-match technical tasks, such as robot setup and troubleshooting.
+      - question: |
+          How many people can be on a DRIVE TEAM?
+        answer: |
+          A DRIVE TEAM can have up to five members.
+  - context: |
+      In CRESCENDO, scoring involves autonomous and teleoperated phases. Robots score notes in AMPs and speakers, and alliances can earn bonuses through actions like Coopertition and harmonizing. Scoring criteria and point values vary depending on actions and game phases.
+    questions_and_answers:
+      - question: |
+          What are the two phases of a CRESCENDO match?
+        answer: |
+          The two phases are the autonomous phase (AUTO) and the teleoperated phase (TELEOP).
+      - question: |
+          How are points amplified in CRESCENDO?
+        answer: |
+          Points are amplified when notes are scored in an AMP and then used to amplify speaker points.
+      - question: |
+          What is the Coopertition bonus in CRESCENDO?
+        answer: |
+          The Coopertition bonus is earned when both alliances repurpose a note and hit their Coopertition button within the first 45 seconds of TELEOP.
+document_outline: |
+  This document outlines the rules, setup, and gameplay for the 2024 FIRST Robotics Competition game, CRESCENDO. It includes guidelines on scoring, arena layout, team roles, and the ethos of FIRST, such as Gracious Professionalism and Coopertition.
+document:
+  repo: https://github.com/jmcconne10/2024rules.git
+  commit: e686fbae88adb8ac0229ac3e337ffbe70e74707a
+  patterns:
+    - 2024GameManual.pdf
